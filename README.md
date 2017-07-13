@@ -1,5 +1,5 @@
 # ID3V2
-A C++ library which is used to encode ID3v2.3 labels
+A C++ library which is used to decode ID3v2.3 labels
 About ID3v2: https://en.wikipedia.org/wiki/ID3#ID3v2
 
 To install the library,use:
@@ -19,4 +19,4 @@ To build the tool,use:
 Usage: mp3info file1 file2 ...
 
 Todo:
-Fix bugs and add more features.
+Fix bugs and add more features like editing the file.
