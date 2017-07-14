@@ -42,15 +42,6 @@ struct Frames {
   wchar_t *TPE1; //Arthur
   wchar_t *TALB; //Album
   wchar_t *TLAN; //Language
-  struct _TRAK
-  {
-		_TRAK() {
-			Num = 0;
-			AlbumNum = 0;
-		}
-    int Num;
-    int AlbumNum;
-  }TRAK; //Unknown?
   char *TYER; //Year
   char *TCON; //Style
   char *COMM;
